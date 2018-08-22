@@ -1,0 +1,15 @@
+.\objects\sys.o: src\sys.c
+.\objects\sys.o: src\sys.h
+.\objects\sys.o: ./cmsis/stm32f10x.h
+.\objects\sys.o: ./cmsis/core_cm3.h
+.\objects\sys.o: D:\keil1\ARM\ARMCC\bin\..\include\stdint.h
+.\objects\sys.o: ./cmsis/core_cmInstr.h
+.\objects\sys.o: ./cmsis/core_cmFunc.h
+.\objects\sys.o: ./cmsis/system_stm32f10x.h
+.\objects\sys.o: ./src/stm32f10x_conf.h
+.\objects\sys.o: ./emlib/stm32f10x_flash.h
+.\objects\sys.o: ./cmsis/stm32f10x.h
+.\objects\sys.o: ./emlib/stm32f10x_gpio.h
+.\objects\sys.o: ./emlib/stm32f10x_rcc.h
+.\objects\sys.o: ./emlib/stm32f10x_usart.h
+.\objects\sys.o: ./emlib/misc.h

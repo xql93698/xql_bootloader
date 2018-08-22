@@ -1,0 +1,16 @@
+.\objects\flash.o: src\flash.c
+.\objects\flash.o: src\flash.h
+.\objects\flash.o: ./cmsis/stm32f10x.h
+.\objects\flash.o: ./cmsis/core_cm3.h
+.\objects\flash.o: D:\keil1\ARM\ARMCC\bin\..\include\stdint.h
+.\objects\flash.o: ./cmsis/core_cmInstr.h
+.\objects\flash.o: ./cmsis/core_cmFunc.h
+.\objects\flash.o: ./cmsis/system_stm32f10x.h
+.\objects\flash.o: ./src/stm32f10x_conf.h
+.\objects\flash.o: ./emlib/stm32f10x_flash.h
+.\objects\flash.o: ./cmsis/stm32f10x.h
+.\objects\flash.o: ./emlib/stm32f10x_gpio.h
+.\objects\flash.o: ./emlib/stm32f10x_rcc.h
+.\objects\flash.o: ./emlib/stm32f10x_usart.h
+.\objects\flash.o: ./emlib/misc.h
+.\objects\flash.o: src\delay.h

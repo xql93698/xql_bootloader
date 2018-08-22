@@ -1,0 +1,343 @@
+# depslib dependency file v1.0
+1533624669 source:/home/parallels/Desktop/catfly_bootloader/main.c
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<termios.h>
+	<stdio.h>
+	"serial_posix.h"
+	"serial.h"
+	"debug.h"
+	"control.h"
+	"usart_driver.h"
+	"frame_phase.h"
+	"file.h"
+
+1533641592 
+
+1533130639 /home/parallels/Desktop/catfly_bootloader/ymodem.h
+	<stdint.h>
+
+1454619748 /home/parallels/Desktop/catfly_bootloader/serial_posix.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<termios.h>
+
+1454619748 >
+
+1454619852 /home/parallels/Desktop/catfly_bootloader/serial.h
+	<fcntl.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/signal.h>
+
+1454619852 l.h>
+
+1533219883 /home/parallels/Desktop/catfly_bootloader/debug.h
+	<stdint.h>
+
+1533304539 source:/home/parallels/Desktop/catfly_bootloader/serial.c
+	<stdio.h>
+	"serial.h"
+	"serial_posix.h"
+
+1533223593 six.h"
+
+1533223593 source:/home/parallels/Desktop/catfly_bootloader/serial_posix.c
+	<fcntl.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/signal.h>
+	"serial_posix.h"
+
+1533177998 source:/home/parallels/Desktop/catfly_bootloader/ymodem.c
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+	<stdlib.h>
+	"ymodem.h"
+	"serial.h"
+	"debug.h"
+
+1533177998 source:/home/parallels/Desktop/catfly_bootloader/test.c
+	<stdio.h>
+	<sys/types.h>
+	<stdint.h>
+	<stdlib.h>
+
+1533623074 source:/home/parallels/Desktop/catfly_bootloader/control.c
+	"control.h"
+	<sys/time.h>
+
+1534681727 h>
+
+1533624653 /home/parallels/Desktop/catfly_bootloader/control.h
+	<stdio.h>
+	<stdint.h>
+
+1533178481 /home/parallels/Desktop/catfly_bootloader/frame_driver.h
+	<stdint.h>
+
+1533181838 source:/home/parallels/Desktop/catfly_bootloader/frame_driver.c
+	"frame_driver.h"
+	"serial_posix.h"
+	"serial.h"
+	"debug.h"
+
+1533546403 source:/home/parallels/Desktop/catfly_bootloader/frame_parse.c
+	"frame_phase.h"
+	<stdio.h>
+	"control.h"
+
+1534834160 "
+
+1533278165 /home/parallels/Desktop/catfly_bootloader/frame_phase.h
+	"usart_driver.h"
+
+1534681728 ver.h"
+
+1533221989 /home/parallels/Desktop/catfly_bootloader/usart_driver.h
+	<stdint.h>
+
+1533546538 source:/home/parallels/Desktop/catfly_bootloader/usart_driver.c
+	"usart_driver.h"
+	"serial_posix.h"
+	"serial.h"
+	"debug.h"
+	"frame_phase.h"
+	<stdio.h>
+
+1533393382 source:/home/parallels/Desktop/catfly_bootloader/file.c
+	"file.h"
+	<string.h>
+
+1533276263 /home/parallels/Desktop/catfly_bootloader/file.h
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	"frame_phase.h"
+
+1534681727 se.h"
+
+1534681727 source:d:\catfly_bootloader-master\catfly_bootloader-master\control.c
+	"control.h"
+	<sys/time.h>
+
+1534681728 d:\catfly_bootloader-master\catfly_bootloader-master\control.h
+	<stdio.h>
+	<stdint.h>
+
+1534822440 source:d:\catfly_bootloader-master\catfly_bootloader-master\file.c
+	"file.h"
+	<string.h>
+
+1534681727 d:\catfly_bootloader-master\catfly_bootloader-master\file.h
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	"frame_phase.h"
+
+1534681728 d:\catfly_bootloader-master\catfly_bootloader-master\frame_phase.h
+	"usart_driver.h"
+
+1534681728 d:\catfly_bootloader-master\catfly_bootloader-master\usart_driver.h
+	<stdint.h>
+
+1534834160 source:d:\catfly_bootloader-master\catfly_bootloader-master\frame_parse.c
+	"frame_phase.h"
+	<stdio.h>
+	"control.h"
+
+1533641592 source:d:\catfly_bootloader-master\catfly_bootloader-master\test.c
+	<stdio.h>
+	<sys/types.h>
+	<stdint.h>
+	<stdlib.h>
+
+1534681727 source:/media/xql/9440DBC240DBA8EE/catfly_bootloader-master/catfly_bootloader-master/control.c
+	"control.h"
+	<sys/time.h>
+
+1534681728 /media/xql/9440DBC240DBA8EE/catfly_bootloader-master/catfly_bootloader-master/control.h
+	<stdio.h>
+	<stdint.h>
+
+1534822440 source:/media/xql/9440DBC240DBA8EE/catfly_bootloader-master/catfly_bootloader-master/file.c
+	"file.h"
+	<string.h>
+
+1534681727 /media/xql/9440DBC240DBA8EE/catfly_bootloader-master/catfly_bootloader-master/file.h
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	"frame_phase.h"
+
+1534681728 /media/xql/9440DBC240DBA8EE/catfly_bootloader-master/catfly_bootloader-master/frame_phase.h
+	"usart_driver.h"
+
+1534681728 /media/xql/9440DBC240DBA8EE/catfly_bootloader-master/catfly_bootloader-master/usart_driver.h
+	<stdint.h>
+
+1534834160 source:/media/xql/9440DBC240DBA8EE/catfly_bootloader-master/catfly_bootloader-master/frame_parse.c
+	"frame_phase.h"
+	<stdio.h>
+	"control.h"
+
+1533641592 source:/media/xql/9440DBC240DBA8EE/catfly_bootloader-master/catfly_bootloader-master/test.c
+	<stdio.h>
+	<sys/types.h>
+	<stdint.h>
+	<stdlib.h>
+
+1534836490 source:/media/xql/9440DBC240DBA8EE/catfly_bootloader-master/catfly_bootloader-master/main.c
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<termios.h>
+	<stdio.h>
+	"serial_posix.h"
+	"serial.h"
+	"debug.h"
+	"control.h"
+	"usart_driver.h"
+	"frame_phase.h"
+	"file.h"
+
+1534834514 /media/xql/9440DBC240DBA8EE/catfly_bootloader-master/catfly_bootloader-master/serial_posix.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<termios.h>
+
+1534681728 /media/xql/9440DBC240DBA8EE/catfly_bootloader-master/catfly_bootloader-master/serial.h
+	<fcntl.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/signal.h>
+
+1533641592 /media/xql/9440DBC240DBA8EE/catfly_bootloader-master/catfly_bootloader-master/debug.h
+	<stdint.h>
+
+1533641592 source:/media/xql/9440DBC240DBA8EE/catfly_bootloader-master/catfly_bootloader-master/serial.c
+	<stdio.h>
+	"serial.h"
+	"serial_posix.h"
+
+1533641592 source:/media/xql/9440DBC240DBA8EE/catfly_bootloader-master/catfly_bootloader-master/serial_posix.c
+	<fcntl.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/signal.h>
+	"serial_posix.h"
+
+1534578833 source:/media/xql/9440DBC240DBA8EE/catfly_bootloader-master/catfly_bootloader-master/usart_driver.c
+	"usart_driver.h"
+	"serial_posix.h"
+	"serial.h"
+	"debug.h"
+	"frame_phase.h"
+	<stdio.h>
+
+1533641592 source:/media/xql/9440DBC240DBA8EE/catfly_bootloader-master/catfly_bootloader-master/ymodem.c
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+	<stdlib.h>
+	"ymodem.h"
+	"serial.h"
+	"debug.h"
+
+1533641592 /media/xql/9440DBC240DBA8EE/catfly_bootloader-master/catfly_bootloader-master/ymodem.h
+	<stdint.h>
+
+1534822589 source:d:\catfly_bootloader-master\catfly_bootloader-master\main.c
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<termios.h>
+	<stdio.h>
+	"serial_posix.h"
+	"serial.h"
+	"debug.h"
+	"control.h"
+	"usart_driver.h"
+	"frame_phase.h"
+	"file.h"
+
+1534819069 d:\catfly_bootloader-master\catfly_bootloader-master\serial_posix.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1534681728 d:\catfly_bootloader-master\catfly_bootloader-master\serial.h
+	<fcntl.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/signal.h>
+
+1533641592 d:\catfly_bootloader-master\catfly_bootloader-master\debug.h
+	<stdint.h>
+
+1533641592 source:d:\catfly_bootloader-master\catfly_bootloader-master\serial.c
+	<stdio.h>
+	"serial.h"
+	"serial_posix.h"
+
+1533641592 source:d:\catfly_bootloader-master\catfly_bootloader-master\serial_posix.c
+	<fcntl.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/signal.h>
+	"serial_posix.h"
+
+1534578833 source:d:\catfly_bootloader-master\catfly_bootloader-master\usart_driver.c
+	"usart_driver.h"
+	"serial_posix.h"
+	"serial.h"
+	"debug.h"
+	"frame_phase.h"
+	<stdio.h>
+
+1533641592 source:d:\catfly_bootloader-master\catfly_bootloader-master\ymodem.c
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+	<stdlib.h>
+	"ymodem.h"
+	"serial.h"
+	"debug.h"
+
+1533641592 d:\catfly_bootloader-master\catfly_bootloader-master\ymodem.h
+	<stdint.h>
+
